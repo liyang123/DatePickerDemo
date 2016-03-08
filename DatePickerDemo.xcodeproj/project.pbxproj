@@ -15,6 +15,7 @@
 		B6C8B5531C8F0E77004D9386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C8B5511C8F0E77004D9386 /* LaunchScreen.storyboard */; };
 		B6C8B55E1C8F0E77004D9386 /* DatePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C8B55D1C8F0E77004D9386 /* DatePickerDemoTests.m */; };
 		B6C8B5691C8F0E78004D9386 /* DatePickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C8B5681C8F0E78004D9386 /* DatePickerDemoUITests.m */; };
+		B6C8B5781C8F13BD004D9386 /* CustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C8B5771C8F13BD004D9386 /* CustomDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6C8B5641C8F0E78004D9386 /* DatePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C8B5681C8F0E78004D9386 /* DatePickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerDemoUITests.m; sourceTree = "<group>"; };
 		B6C8B56A1C8F0E78004D9386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C8B5761C8F13BD004D9386 /* CustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDatePickerView.h; sourceTree = "<group>"; };
+		B6C8B5771C8F13BD004D9386 /* CustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B6C8B5471C8F0E77004D9386 /* AppDelegate.m */,
 				B6C8B5491C8F0E77004D9386 /* ViewController.h */,
 				B6C8B54A1C8F0E77004D9386 /* ViewController.m */,
+				B6C8B5761C8F13BD004D9386 /* CustomDatePickerView.h */,
+				B6C8B5771C8F13BD004D9386 /* CustomDatePickerView.m */,
 				B6C8B54C1C8F0E77004D9386 /* Main.storyboard */,
 				B6C8B54F1C8F0E77004D9386 /* Assets.xcassets */,
 				B6C8B5511C8F0E77004D9386 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B6C8B54B1C8F0E77004D9386 /* ViewController.m in Sources */,
 				B6C8B5481C8F0E77004D9386 /* AppDelegate.m in Sources */,
 				B6C8B5451C8F0E77004D9386 /* main.m in Sources */,
+				B6C8B5781C8F13BD004D9386 /* CustomDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
